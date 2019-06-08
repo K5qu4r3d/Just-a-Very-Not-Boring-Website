@@ -17,6 +17,7 @@ from django.contrib import admin
 from django.urls import include, path
 
 urlpatterns = [
-    path('userfetch/', include('userfetch.urls')),
+    path('', include('userfetch.urls')),
+    path('', include('userfetch.urls')),
     path('admin/', admin.site.urls),
 ]
